@@ -26,34 +26,26 @@ The objective is to understand sales performance, identify top-performing produc
 
 Data preparation was performed to make the dataset suitable for analysis.
 
-Reviewed the dataset and checked data quality.
+- Reviewed the dataset and checked data quality.
 
-Checked data formats and consistency.
+- Checked data formats and consistency.
 
-Prepared date and category fields for analysis.
+- Prepared date and category fields for analysis.
 
-Organized data for reporting and visualization.
+- Organized data for reporting and visualization.
 
-Used relevant fields to support accurate calculations.
+- Used relevant fields to support accurate calculations.
 
-### 🗂️ Data Model
+## 🗂️ Data Model
 
-The project uses a relational data model to connect sales transactions with supporting datasets.
+Created relationships between four tables in Power BI to support sales analysis.
 
-Main Tables:
+- **Shipments:** Sales and shipment details.
+- **Products:** Product information.
+- **Locations:** Country and region details.
+- **People:** Salesperson and team details.
 
-Shipments – Sales amount, boxes, shipment details, and product IDs.
-
-Product – Product names and product IDs.
-
-Locations – Country and region information.
-
-People – Salesperson and team information.
-
-Key Relationship:
-Shipments[PID] → Product[PID]
-
-These relationships support analysis across products, countries, regions, teams, and salespeople.
+Connected the tables using common fields to analyze sales across different business categories.
 
 ## 📐 Key DAX Measures
 
