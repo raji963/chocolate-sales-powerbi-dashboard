@@ -22,6 +22,55 @@ The objective is to understand sales performance, identify top-performing produc
 - **DAX** – Calculations and measures.
 - **Data Analysis** – Identifying trends and business insights.
 
+### 🧹 Data Cleaning & Preparation
+
+Data preparation was performed to make the dataset suitable for analysis.
+
+Reviewed the dataset and checked data quality.
+
+Checked data formats and consistency.
+
+Prepared date and category fields for analysis.
+
+Organized data for reporting and visualization.
+
+Used relevant fields to support accurate calculations.
+
+### 🗂️ Data Model
+
+The project uses a relational data model to connect sales transactions with supporting datasets.
+
+Main Tables:
+
+Shipments – Sales amount, boxes, shipment details, and product IDs.
+
+Product – Product names and product IDs.
+
+Locations – Country and region information.
+
+People – Salesperson and team information.
+
+Key Relationship:
+Shipments[PID] → Product[PID]
+
+These relationships support analysis across products, countries, regions, teams, and salespeople.
+
+## 📐 Key DAX Measures
+
+DAX (Data Analysis Expressions) was used to create calculated measures and evaluate key business performance indicators.
+
+**Measures developed in this project:**
+
+| DAX Measure | Purpose |
+|---|---|
+| Total Sales | Calculates overall sales revenue |
+| Total Boxes | Calculates the total number of boxes sold |
+| Profit Margin | Measures profitability as a percentage of sales |
+| Total Shipments | Counts unique shipment records |
+| Average Sales per Salesperson | Calculates average sales for each salesperson |
+
+These measures were used to build KPI cards, analyze sales performance, compare business results, and support interactive dashboard reporting.
+
 ## 📊 Dashboard Pages
 
 ### 1. Overview
